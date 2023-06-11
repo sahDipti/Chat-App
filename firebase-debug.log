@@ -1,0 +1,17 @@
+[debug] [2023-06-09T20:31:00.670Z] ----------------------------------------------------------------------
+[debug] [2023-06-09T20:31:00.672Z] Command:       /usr/local/bin/firebase /Users/diptirajsah/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase projects:list --json
+[debug] [2023-06-09T20:31:00.672Z] CLI Version:   12.3.1
+[debug] [2023-06-09T20:31:00.673Z] Platform:      darwin
+[debug] [2023-06-09T20:31:00.673Z] Node Version:  v16.16.0
+[debug] [2023-06-09T20:31:00.674Z] Time:          Sat Jun 10 2023 02:16:00 GMT+0545 (Nepal Time)
+[debug] [2023-06-09T20:31:00.675Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-06-09T20:31:00.684Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-06-09T20:31:00.687Z] > authorizing via signed-in user (sah07dipti@gmail.com)
+[debug] [2023-06-09T20:31:00.692Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2023-06-09T20:31:30.700Z] Timeout reached making request to https://firebase.googleapis.com/v1beta1/projects?pageSize=1000
+[debug] [2023-06-09T20:31:30.992Z] FirebaseError: Timeout reached making request to https://firebase.googleapis.com/v1beta1/projects?pageSize=1000
+    at RetryOperation._fn (/Users/diptirajsah/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/apiv2.js:238:35)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
